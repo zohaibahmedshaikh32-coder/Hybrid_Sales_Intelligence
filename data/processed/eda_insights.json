@@ -1,0 +1,19 @@
+{
+  "median_active_days": 68.0,
+  "median_zero_day_frac": 0.9079837618403248,
+  "pct_products_forecastable": 53.83315733896515,
+  "weekday_signal_cv": 0.5122403385838286,
+  "month_signal_cv": 0.2702916339224742,
+  "qty_skew_raw": 786.2346803501072,
+  "qty_skew_log1p": 3.099344968428362,
+  "qty_upper_p99": 60.0,
+  "mean_acf_lag7_top_products": 0.11359541070257924,
+  "qty_zscore_p1_p99": [
+    -0.7733623252893599,
+    4.2740095939335
+  ],
+  "pct_extreme_qty": 1.7022386362985027,
+  "mean_return_ratio_pct": 2.1951398665672146,
+  "products_all": 4735,
+  "products_forecastable": 2004
+}

@@ -1,0 +1,236 @@
+{
+  "generated_at": "2026-11-16T23:01:08.679232",
+  "scope_note": "Deviation signals are hypotheses, not confirmed events. Anomaly flags are unsupervised outputs without ground truth.",
+  "hybrid_category_counts": {
+    "Zero-sale day (normal for sparse products)": 130616,
+    "Silent underperformance": 38928,
+    "Silent overperformance": 27191,
+    "Normal (on-target, no anomalies)": 14428,
+    "Expected spike with unusual transactions": 2773,
+    "Missed demand with unusual transactions": 284,
+    "Unexpected anomaly (no demand deviation)": 208
+  },
+  "overperforming_products": [
+    {
+      "StockCode": "23378",
+      "Description": "PACK OF 12 50'S CHRISTMAS TISSUES",
+      "mean_deviation_pct": 1094.96
+    },
+    {
+      "StockCode": "23376",
+      "Description": "PACK OF 12 VINTAGE CHRISTMAS TISSUE",
+      "mean_deviation_pct": 1092.08
+    },
+    {
+      "StockCode": "23109",
+      "Description": "LED TEA LIGHTS",
+      "mean_deviation_pct": 955.79
+    },
+    {
+      "StockCode": "23370",
+      "Description": "SET 36 COLOUR PENCILS DOILEY",
+      "mean_deviation_pct": 723.86
+    },
+    {
+      "StockCode": "23503",
+      "Description": "PLAYING CARDS KEEP CALM & CARRY ON",
+      "mean_deviation_pct": 659.96
+    },
+    {
+      "StockCode": "21111",
+      "Description": "SWISS ROLL TOWEL, CHOCOLATE SPOTS",
+      "mean_deviation_pct": 459.86
+    },
+    {
+      "StockCode": "23367",
+      "Description": "SET 12 COLOUR PENCILS SPACEBOY",
+      "mean_deviation_pct": 483.66
+    },
+    {
+      "StockCode": "23084",
+      "Description": "RABBIT NIGHT LIGHT",
+      "mean_deviation_pct": 446.01
+    },
+    {
+      "StockCode": "23393",
+      "Description": "HOME SWEET HOME CUSHION COVER",
+      "mean_deviation_pct": 446.69
+    },
+    {
+      "StockCode": "23103",
+      "Description": "BELL HEART DECORATION",
+      "mean_deviation_pct": 519.22
+    }
+  ],
+  "underperforming_products": [
+    {
+      "StockCode": "21455",
+      "Description": "PAINTED YELLOW WOODEN DAISY",
+      "mean_deviation_pct": -29.84
+    },
+    {
+      "StockCode": "22859",
+      "Description": "EASTER TIN BUNNY BOUQUET",
+      "mean_deviation_pct": -25.6
+    },
+    {
+      "StockCode": "84459A",
+      "Description": "PINK METAL CHICKEN HEART",
+      "mean_deviation_pct": -34.71
+    },
+    {
+      "StockCode": "84508A",
+      "Description": "CAMOUFLAGE DESIGN TEDDY",
+      "mean_deviation_pct": -33.39
+    },
+    {
+      "StockCode": "84821",
+      "Description": "DANISH ROSE DELUXE COASTER",
+      "mean_deviation_pct": -26.41
+    },
+    {
+      "StockCode": "21587",
+      "Description": "COSY HOUR GIANT TUBE MATCHES",
+      "mean_deviation_pct": -33.64
+    },
+    {
+      "StockCode": "22501",
+      "Description": "PICNIC BASKET WICKER LARGE",
+      "mean_deviation_pct": -25.8
+    },
+    {
+      "StockCode": "22032",
+      "Description": "BOTANICAL LILY GREETING CARD",
+      "mean_deviation_pct": -25.93
+    },
+    {
+      "StockCode": "21289",
+      "Description": "LARGE STRIPES CHOCOLATE GIFT BAG",
+      "mean_deviation_pct": -26.97
+    },
+    {
+      "StockCode": "21291",
+      "Description": "SMALL POLKADOT CHOCOLATE GIFT BAG",
+      "mean_deviation_pct": -25.56
+    }
+  ],
+  "anomaly_hotspots": [
+    {
+      "StockCode": "22423",
+      "Description": "REGENCY CAKESTAND 3 TIER",
+      "n_anomalous_days": 40,
+      "anomaly_rate": 0.09
+    },
+    {
+      "StockCode": "85099B",
+      "Description": "JUMBO BAG RED RETROSPOT",
+      "n_anomalous_days": 39,
+      "anomaly_rate": 0.07
+    },
+    {
+      "StockCode": "23084",
+      "Description": "RABBIT NIGHT LIGHT",
+      "n_anomalous_days": 38,
+      "anomaly_rate": 0.06
+    },
+    {
+      "StockCode": "22086",
+      "Description": "PAPER CHAIN KIT 50'S CHRISTMAS",
+      "n_anomalous_days": 36,
+      "anomaly_rate": 0.04
+    },
+    {
+      "StockCode": "22355",
+      "Description": "CHARLOTTE BAG SUKI DESIGN",
+      "n_anomalous_days": 33,
+      "anomaly_rate": 0.11
+    },
+    {
+      "StockCode": "22114",
+      "Description": "HOT WATER BOTTLE TEA AND SYMPATHY",
+      "n_anomalous_days": 28,
+      "anomaly_rate": 0.05
+    },
+    {
+      "StockCode": "22386",
+      "Description": "JUMBO BAG PINK POLKADOT",
+      "n_anomalous_days": 27,
+      "anomaly_rate": 0.07
+    },
+    {
+      "StockCode": "22197",
+      "Description": "POPCORN HOLDER",
+      "n_anomalous_days": 25,
+      "anomaly_rate": 0.04
+    },
+    {
+      "StockCode": "20724",
+      "Description": "RED RETROSPOT CHARLOTTE BAG",
+      "n_anomalous_days": 24,
+      "anomaly_rate": 0.06
+    },
+    {
+      "StockCode": "22178",
+      "Description": "VICTORIAN GLASS HANGING T-LIGHT",
+      "n_anomalous_days": 24,
+      "anomaly_rate": 0.07
+    }
+  ],
+  "most_unstable_demand": [
+    {
+      "StockCode": "23378",
+      "Description": "PACK OF 12 50'S CHRISTMAS TISSUES",
+      "abs_mean_deviation": 1213.74
+    },
+    {
+      "StockCode": "23376",
+      "Description": "PACK OF 12 VINTAGE CHRISTMAS TISSUE",
+      "abs_mean_deviation": 1213.66
+    },
+    {
+      "StockCode": "23109",
+      "Description": "LED TEA LIGHTS",
+      "abs_mean_deviation": 955.79
+    },
+    {
+      "StockCode": "23370",
+      "Description": "SET 36 COLOUR PENCILS DOILEY",
+      "abs_mean_deviation": 917.4
+    },
+    {
+      "StockCode": "23503",
+      "Description": "PLAYING CARDS KEEP CALM & CARRY ON",
+      "abs_mean_deviation": 766.54
+    },
+    {
+      "StockCode": "21111",
+      "Description": "SWISS ROLL TOWEL, CHOCOLATE SPOTS",
+      "abs_mean_deviation": 631.23
+    },
+    {
+      "StockCode": "23367",
+      "Description": "SET 12 COLOUR PENCILS SPACEBOY",
+      "abs_mean_deviation": 589.49
+    },
+    {
+      "StockCode": "23084",
+      "Description": "RABBIT NIGHT LIGHT",
+      "abs_mean_deviation": 551.46
+    },
+    {
+      "StockCode": "23393",
+      "Description": "HOME SWEET HOME CUSHION COVER",
+      "abs_mean_deviation": 550.55
+    },
+    {
+      "StockCode": "23103",
+      "Description": "BELL HEART DECORATION",
+      "abs_mean_deviation": 519.22
+    }
+  ],
+  "rules": {
+    "overperforming": "mean_deviation_pct > 25%",
+    "underperforming": "mean_deviation_pct < -25%",
+    "anomaly_hotspot": "highest n_anomalous_days"
+  }
+}

@@ -1,0 +1,511 @@
+{
+  "generated_at": "2026-11-17T20:08:29.229252",
+  "scope_note": "All recommendations are hypotheses for human review. They are NOT confirmed business events and must be cross-checked against inventory, pricing, and customer data before operational action.",
+  "n_mitigations": 56,
+  "mitigations": [
+    {
+      "StockCode": "23084",
+      "Description": "RABBIT NIGHT LIGHT",
+      "category": "stockout_risk",
+      "severity": "high",
+      "evidence": "Mean deviation +446.0%, 38 anomalous days",
+      "suggested_action": "Increase reorder quantity for next 2 weeks; check supplier lead time; consider safety stock bump.",
+      "caveat": "Deviation may reflect seasonality or bulk orders \u2014 verify against upcoming promotions."
+    },
+    {
+      "StockCode": "23371",
+      "Description": "SET 36 COLOUR PENCILS SPACEBOY",
+      "category": "stockout_risk",
+      "severity": "high",
+      "evidence": "Mean deviation +306.8%, 6 anomalous days",
+      "suggested_action": "Increase reorder quantity for next 2 weeks; check supplier lead time; consider safety stock bump.",
+      "caveat": "Deviation may reflect seasonality or bulk orders \u2014 verify against upcoming promotions."
+    },
+    {
+      "StockCode": "21192",
+      "Description": "WHITE BELL HONEYCOMB PAPER",
+      "category": "stockout_risk",
+      "severity": "high",
+      "evidence": "Mean deviation +86.0%, 5 anomalous days",
+      "suggested_action": "Increase reorder quantity for next 2 weeks; check supplier lead time; consider safety stock bump.",
+      "caveat": "Deviation may reflect seasonality or bulk orders \u2014 verify against upcoming promotions."
+    },
+    {
+      "StockCode": "21787",
+      "Description": "RAIN PONCHO RETROSPOT",
+      "category": "stockout_risk",
+      "severity": "high",
+      "evidence": "Mean deviation +93.1%, 9 anomalous days",
+      "suggested_action": "Increase reorder quantity for next 2 weeks; check supplier lead time; consider safety stock bump.",
+      "caveat": "Deviation may reflect seasonality or bulk orders \u2014 verify against upcoming promotions."
+    },
+    {
+      "StockCode": "22812",
+      "Description": "PACK 3 BOXES CHRISTMAS PANNETONE",
+      "category": "stockout_risk",
+      "severity": "high",
+      "evidence": "Mean deviation +81.7%, 7 anomalous days",
+      "suggested_action": "Increase reorder quantity for next 2 weeks; check supplier lead time; consider safety stock bump.",
+      "caveat": "Deviation may reflect seasonality or bulk orders \u2014 verify against upcoming promotions."
+    },
+    {
+      "StockCode": "23284",
+      "Description": "DOORMAT KEEP CALM AND COME IN",
+      "category": "stockout_risk",
+      "severity": "high",
+      "evidence": "Mean deviation +44.3%, 11 anomalous days",
+      "suggested_action": "Increase reorder quantity for next 2 weeks; check supplier lead time; consider safety stock bump.",
+      "caveat": "Deviation may reflect seasonality or bulk orders \u2014 verify against upcoming promotions."
+    },
+    {
+      "StockCode": "22065",
+      "Description": "CHRISTMAS PUDDING TRINKET POT",
+      "category": "stockout_risk",
+      "severity": "high",
+      "evidence": "Mean deviation +46.6%, 5 anomalous days",
+      "suggested_action": "Increase reorder quantity for next 2 weeks; check supplier lead time; consider safety stock bump.",
+      "caveat": "Deviation may reflect seasonality or bulk orders \u2014 verify against upcoming promotions."
+    },
+    {
+      "StockCode": "22577",
+      "Description": "WOODEN HEART CHRISTMAS SCANDINAVIAN",
+      "category": "stockout_risk",
+      "severity": "high",
+      "evidence": "Mean deviation +53.9%, 8 anomalous days",
+      "suggested_action": "Increase reorder quantity for next 2 weeks; check supplier lead time; consider safety stock bump.",
+      "caveat": "Deviation may reflect seasonality or bulk orders \u2014 verify against upcoming promotions."
+    },
+    {
+      "StockCode": "22578",
+      "Description": "WOODEN STAR CHRISTMAS SCANDINAVIAN",
+      "category": "stockout_risk",
+      "severity": "high",
+      "evidence": "Mean deviation +43.6%, 5 anomalous days",
+      "suggested_action": "Increase reorder quantity for next 2 weeks; check supplier lead time; consider safety stock bump.",
+      "caveat": "Deviation may reflect seasonality or bulk orders \u2014 verify against upcoming promotions."
+    },
+    {
+      "StockCode": "23319",
+      "Description": "BOX OF 6 MINI 50'S CRACKERS",
+      "category": "stockout_risk",
+      "severity": "high",
+      "evidence": "Mean deviation +26.5%, 9 anomalous days",
+      "suggested_action": "Increase reorder quantity for next 2 weeks; check supplier lead time; consider safety stock bump.",
+      "caveat": "Deviation may reflect seasonality or bulk orders \u2014 verify against upcoming promotions."
+    },
+    {
+      "StockCode": "15034",
+      "Description": "PAPER POCKET TRAVELING FAN",
+      "category": "overstock_risk",
+      "severity": "medium",
+      "evidence": "Mean deviation -54.8%, 5 anomalous days",
+      "suggested_action": "Reduce next reorder; consider promotional pricing or bundle with high-demand items.",
+      "caveat": "Underperformance may reflect genuine demand drop or a stockout in the observation window \u2014 cross-check with inventory data."
+    },
+    {
+      "StockCode": "22149",
+      "Description": "FELTCRAFT 6 FLOWER FRIENDS",
+      "category": "overstock_risk",
+      "severity": "medium",
+      "evidence": "Mean deviation -50.4%, 5 anomalous days",
+      "suggested_action": "Reduce next reorder; consider promotional pricing or bundle with high-demand items.",
+      "caveat": "Underperformance may reflect genuine demand drop or a stockout in the observation window \u2014 cross-check with inventory data."
+    },
+    {
+      "StockCode": "84997B",
+      "Description": "CHILDRENS CUTLERY RETROSPOT RED",
+      "category": "overstock_risk",
+      "severity": "medium",
+      "evidence": "Mean deviation -27.5%, 10 anomalous days",
+      "suggested_action": "Reduce next reorder; consider promotional pricing or bundle with high-demand items.",
+      "caveat": "Underperformance may reflect genuine demand drop or a stockout in the observation window \u2014 cross-check with inventory data."
+    },
+    {
+      "StockCode": "21524",
+      "Description": "DOORMAT SPOTTY HOME SWEET HOME",
+      "category": "overstock_risk",
+      "severity": "medium",
+      "evidence": "Mean deviation -28.0%, 5 anomalous days",
+      "suggested_action": "Reduce next reorder; consider promotional pricing or bundle with high-demand items.",
+      "caveat": "Underperformance may reflect genuine demand drop or a stockout in the observation window \u2014 cross-check with inventory data."
+    },
+    {
+      "StockCode": "15056BL",
+      "Description": "EDWARDIAN PARASOL BLACK",
+      "category": "overstock_risk",
+      "severity": "medium",
+      "evidence": "Mean deviation -34.9%, 6 anomalous days",
+      "suggested_action": "Reduce next reorder; consider promotional pricing or bundle with high-demand items.",
+      "caveat": "Underperformance may reflect genuine demand drop or a stockout in the observation window \u2014 cross-check with inventory data."
+    },
+    {
+      "StockCode": "48138",
+      "Description": "DOORMAT UNION FLAG",
+      "category": "overstock_risk",
+      "severity": "medium",
+      "evidence": "Mean deviation -37.7%, 5 anomalous days",
+      "suggested_action": "Reduce next reorder; consider promotional pricing or bundle with high-demand items.",
+      "caveat": "Underperformance may reflect genuine demand drop or a stockout in the observation window \u2014 cross-check with inventory data."
+    },
+    {
+      "StockCode": "82484",
+      "Description": "WOOD BLACK BOARD ANT WHITE FINISH",
+      "category": "overstock_risk",
+      "severity": "medium",
+      "evidence": "Mean deviation -28.9%, 5 anomalous days",
+      "suggested_action": "Reduce next reorder; consider promotional pricing or bundle with high-demand items.",
+      "caveat": "Underperformance may reflect genuine demand drop or a stockout in the observation window \u2014 cross-check with inventory data."
+    },
+    {
+      "StockCode": "21843",
+      "Description": "RED RETROSPOT CAKE STAND",
+      "category": "overstock_risk",
+      "severity": "medium",
+      "evidence": "Mean deviation -39.6%, 10 anomalous days",
+      "suggested_action": "Reduce next reorder; consider promotional pricing or bundle with high-demand items.",
+      "caveat": "Underperformance may reflect genuine demand drop or a stockout in the observation window \u2014 cross-check with inventory data."
+    },
+    {
+      "StockCode": "84991",
+      "Description": "60 TEATIME FAIRY CAKE CASES",
+      "category": "overstock_risk",
+      "severity": "medium",
+      "evidence": "Mean deviation -31.4%, 7 anomalous days",
+      "suggested_action": "Reduce next reorder; consider promotional pricing or bundle with high-demand items.",
+      "caveat": "Underperformance may reflect genuine demand drop or a stockout in the observation window \u2014 cross-check with inventory data."
+    },
+    {
+      "StockCode": "85099F",
+      "Description": "JUMBO BAG STRAWBERRY",
+      "category": "overstock_risk",
+      "severity": "medium",
+      "evidence": "Mean deviation -42.4%, 19 anomalous days",
+      "suggested_action": "Reduce next reorder; consider promotional pricing or bundle with high-demand items.",
+      "caveat": "Underperformance may reflect genuine demand drop or a stockout in the observation window \u2014 cross-check with inventory data."
+    },
+    {
+      "StockCode": "23378",
+      "Description": "PACK OF 12 50'S CHRISTMAS TISSUES",
+      "category": "demand_instability",
+      "severity": "medium",
+      "evidence": "|mean deviation| = 1213.7%",
+      "suggested_action": "Move to manual demand-planning review; consider shortening forecast horizon and adding safety margin.",
+      "caveat": "Instability may be structural (seasonal/bulk) \u2014 segment the customer base before assuming volatility."
+    },
+    {
+      "StockCode": "23376",
+      "Description": "PACK OF 12 VINTAGE CHRISTMAS TISSUE",
+      "category": "demand_instability",
+      "severity": "medium",
+      "evidence": "|mean deviation| = 1213.7%",
+      "suggested_action": "Move to manual demand-planning review; consider shortening forecast horizon and adding safety margin.",
+      "caveat": "Instability may be structural (seasonal/bulk) \u2014 segment the customer base before assuming volatility."
+    },
+    {
+      "StockCode": "23109",
+      "Description": "LED TEA LIGHTS",
+      "category": "demand_instability",
+      "severity": "medium",
+      "evidence": "|mean deviation| = 955.8%",
+      "suggested_action": "Move to manual demand-planning review; consider shortening forecast horizon and adding safety margin.",
+      "caveat": "Instability may be structural (seasonal/bulk) \u2014 segment the customer base before assuming volatility."
+    },
+    {
+      "StockCode": "23370",
+      "Description": "SET 36 COLOUR PENCILS DOILEY",
+      "category": "demand_instability",
+      "severity": "medium",
+      "evidence": "|mean deviation| = 917.4%",
+      "suggested_action": "Move to manual demand-planning review; consider shortening forecast horizon and adding safety margin.",
+      "caveat": "Instability may be structural (seasonal/bulk) \u2014 segment the customer base before assuming volatility."
+    },
+    {
+      "StockCode": "23503",
+      "Description": "PLAYING CARDS KEEP CALM & CARRY ON",
+      "category": "demand_instability",
+      "severity": "medium",
+      "evidence": "|mean deviation| = 766.5%",
+      "suggested_action": "Move to manual demand-planning review; consider shortening forecast horizon and adding safety margin.",
+      "caveat": "Instability may be structural (seasonal/bulk) \u2014 segment the customer base before assuming volatility."
+    },
+    {
+      "StockCode": "21111",
+      "Description": "SWISS ROLL TOWEL, CHOCOLATE SPOTS",
+      "category": "demand_instability",
+      "severity": "medium",
+      "evidence": "|mean deviation| = 631.2%",
+      "suggested_action": "Move to manual demand-planning review; consider shortening forecast horizon and adding safety margin.",
+      "caveat": "Instability may be structural (seasonal/bulk) \u2014 segment the customer base before assuming volatility."
+    },
+    {
+      "StockCode": "23367",
+      "Description": "SET 12 COLOUR PENCILS SPACEBOY",
+      "category": "demand_instability",
+      "severity": "medium",
+      "evidence": "|mean deviation| = 589.5%",
+      "suggested_action": "Move to manual demand-planning review; consider shortening forecast horizon and adding safety margin.",
+      "caveat": "Instability may be structural (seasonal/bulk) \u2014 segment the customer base before assuming volatility."
+    },
+    {
+      "StockCode": "23084",
+      "Description": "RABBIT NIGHT LIGHT",
+      "category": "demand_instability",
+      "severity": "medium",
+      "evidence": "|mean deviation| = 551.5%",
+      "suggested_action": "Move to manual demand-planning review; consider shortening forecast horizon and adding safety margin.",
+      "caveat": "Instability may be structural (seasonal/bulk) \u2014 segment the customer base before assuming volatility."
+    },
+    {
+      "StockCode": "23393",
+      "Description": "HOME SWEET HOME CUSHION COVER",
+      "category": "demand_instability",
+      "severity": "medium",
+      "evidence": "|mean deviation| = 550.5%",
+      "suggested_action": "Move to manual demand-planning review; consider shortening forecast horizon and adding safety margin.",
+      "caveat": "Instability may be structural (seasonal/bulk) \u2014 segment the customer base before assuming volatility."
+    },
+    {
+      "StockCode": "23103",
+      "Description": "BELL HEART DECORATION",
+      "category": "demand_instability",
+      "severity": "medium",
+      "evidence": "|mean deviation| = 519.2%",
+      "suggested_action": "Move to manual demand-planning review; consider shortening forecast horizon and adding safety margin.",
+      "caveat": "Instability may be structural (seasonal/bulk) \u2014 segment the customer base before assuming volatility."
+    },
+    {
+      "StockCode": "22423",
+      "Description": "REGENCY CAKESTAND 3 TIER",
+      "category": "anomaly_hotspot",
+      "severity": "high",
+      "evidence": "40 anomalous days, mean anomaly rate 0.086",
+      "suggested_action": "Audit transactions for this product: check for data-entry errors, bulk customer patterns, or reporting anomalies.",
+      "caveat": "High anomaly count does not imply fraud \u2014 it means unusual transaction patterns warrant manual review."
+    },
+    {
+      "StockCode": "85099B",
+      "Description": "JUMBO BAG RED RETROSPOT",
+      "category": "anomaly_hotspot",
+      "severity": "high",
+      "evidence": "39 anomalous days, mean anomaly rate 0.069",
+      "suggested_action": "Audit transactions for this product: check for data-entry errors, bulk customer patterns, or reporting anomalies.",
+      "caveat": "High anomaly count does not imply fraud \u2014 it means unusual transaction patterns warrant manual review."
+    },
+    {
+      "StockCode": "23084",
+      "Description": "RABBIT NIGHT LIGHT",
+      "category": "anomaly_hotspot",
+      "severity": "high",
+      "evidence": "38 anomalous days, mean anomaly rate 0.058",
+      "suggested_action": "Audit transactions for this product: check for data-entry errors, bulk customer patterns, or reporting anomalies.",
+      "caveat": "High anomaly count does not imply fraud \u2014 it means unusual transaction patterns warrant manual review."
+    },
+    {
+      "StockCode": "22086",
+      "Description": "PAPER CHAIN KIT 50'S CHRISTMAS",
+      "category": "anomaly_hotspot",
+      "severity": "high",
+      "evidence": "36 anomalous days, mean anomaly rate 0.041",
+      "suggested_action": "Audit transactions for this product: check for data-entry errors, bulk customer patterns, or reporting anomalies.",
+      "caveat": "High anomaly count does not imply fraud \u2014 it means unusual transaction patterns warrant manual review."
+    },
+    {
+      "StockCode": "22355",
+      "Description": "CHARLOTTE BAG SUKI DESIGN",
+      "category": "anomaly_hotspot",
+      "severity": "high",
+      "evidence": "33 anomalous days, mean anomaly rate 0.113",
+      "suggested_action": "Audit transactions for this product: check for data-entry errors, bulk customer patterns, or reporting anomalies.",
+      "caveat": "High anomaly count does not imply fraud \u2014 it means unusual transaction patterns warrant manual review."
+    },
+    {
+      "StockCode": "22114",
+      "Description": "HOT WATER BOTTLE TEA AND SYMPATHY",
+      "category": "anomaly_hotspot",
+      "severity": "high",
+      "evidence": "28 anomalous days, mean anomaly rate 0.048",
+      "suggested_action": "Audit transactions for this product: check for data-entry errors, bulk customer patterns, or reporting anomalies.",
+      "caveat": "High anomaly count does not imply fraud \u2014 it means unusual transaction patterns warrant manual review."
+    },
+    {
+      "StockCode": "22386",
+      "Description": "JUMBO BAG PINK POLKADOT",
+      "category": "anomaly_hotspot",
+      "severity": "high",
+      "evidence": "27 anomalous days, mean anomaly rate 0.075",
+      "suggested_action": "Audit transactions for this product: check for data-entry errors, bulk customer patterns, or reporting anomalies.",
+      "caveat": "High anomaly count does not imply fraud \u2014 it means unusual transaction patterns warrant manual review."
+    },
+    {
+      "StockCode": "22197",
+      "Description": "POPCORN HOLDER",
+      "category": "anomaly_hotspot",
+      "severity": "high",
+      "evidence": "25 anomalous days, mean anomaly rate 0.039",
+      "suggested_action": "Audit transactions for this product: check for data-entry errors, bulk customer patterns, or reporting anomalies.",
+      "caveat": "High anomaly count does not imply fraud \u2014 it means unusual transaction patterns warrant manual review."
+    },
+    {
+      "StockCode": "20724",
+      "Description": "RED RETROSPOT CHARLOTTE BAG",
+      "category": "anomaly_hotspot",
+      "severity": "high",
+      "evidence": "24 anomalous days, mean anomaly rate 0.056",
+      "suggested_action": "Audit transactions for this product: check for data-entry errors, bulk customer patterns, or reporting anomalies.",
+      "caveat": "High anomaly count does not imply fraud \u2014 it means unusual transaction patterns warrant manual review."
+    },
+    {
+      "StockCode": "22178",
+      "Description": "VICTORIAN GLASS HANGING T-LIGHT",
+      "category": "anomaly_hotspot",
+      "severity": "high",
+      "evidence": "24 anomalous days, mean anomaly rate 0.074",
+      "suggested_action": "Audit transactions for this product: check for data-entry errors, bulk customer patterns, or reporting anomalies.",
+      "caveat": "High anomaly count does not imply fraud \u2014 it means unusual transaction patterns warrant manual review."
+    },
+    {
+      "StockCode": "23166",
+      "Description": "MEDIUM CERAMIC TOP STORAGE JAR",
+      "category": "return_anomaly_product",
+      "severity": "medium",
+      "evidence": "74494 units returned in total",
+      "suggested_action": "Investigate return reasons (quality, wrong listing, size mismatch). Review product page and supplier.",
+      "caveat": "High returns may be legitimately seasonal (e.g. post-holiday) \u2014 split by month to confirm."
+    },
+    {
+      "StockCode": "84347",
+      "Description": "ROTATING SILVER ANGELS T-LIGHT HLDR",
+      "category": "return_anomaly_product",
+      "severity": "medium",
+      "evidence": "19490 units returned in total",
+      "suggested_action": "Investigate return reasons (quality, wrong listing, size mismatch). Review product page and supplier.",
+      "caveat": "High returns may be legitimately seasonal (e.g. post-holiday) \u2014 split by month to confirm."
+    },
+    {
+      "StockCode": "23005",
+      "Description": "TRAVEL CARD WALLET I LOVE LONDON",
+      "category": "return_anomaly_product",
+      "severity": "medium",
+      "evidence": "19201 units returned in total",
+      "suggested_action": "Investigate return reasons (quality, wrong listing, size mismatch). Review product page and supplier.",
+      "caveat": "High returns may be legitimately seasonal (e.g. post-holiday) \u2014 split by month to confirm."
+    },
+    {
+      "StockCode": "22197",
+      "Description": "POPCORN HOLDER",
+      "category": "return_anomaly_product",
+      "severity": "medium",
+      "evidence": "11029 units returned in total",
+      "suggested_action": "Investigate return reasons (quality, wrong listing, size mismatch). Review product page and supplier.",
+      "caveat": "High returns may be legitimately seasonal (e.g. post-holiday) \u2014 split by month to confirm."
+    },
+    {
+      "StockCode": "22759",
+      "Description": "SET OF 3 NOTEBOOKS IN PARCEL",
+      "category": "return_anomaly_product",
+      "severity": "medium",
+      "evidence": "9953 units returned in total",
+      "suggested_action": "Investigate return reasons (quality, wrong listing, size mismatch). Review product page and supplier.",
+      "caveat": "High returns may be legitimately seasonal (e.g. post-holiday) \u2014 split by month to confirm."
+    },
+    {
+      "StockCode": "16235",
+      "Description": "RECYCLED PENCIL WITH RABBIT ERASER",
+      "category": "return_anomaly_product",
+      "severity": "medium",
+      "evidence": "9133 units returned in total",
+      "suggested_action": "Investigate return reasons (quality, wrong listing, size mismatch). Review product page and supplier.",
+      "caveat": "High returns may be legitimately seasonal (e.g. post-holiday) \u2014 split by month to confirm."
+    },
+    {
+      "StockCode": "23084",
+      "Description": "RABBIT NIGHT LIGHT",
+      "category": "pricing_inconsistency",
+      "severity": "medium",
+      "evidence": "33 unusual-transaction flags",
+      "suggested_action": "Verify SKU-level price rules; look for manual overrides, currency mismatches, or regional pricing errors.",
+      "caveat": "Unusual prices may be legitimate discounts \u2014 verify against the pricing master data."
+    },
+    {
+      "StockCode": "85099B",
+      "Description": "JUMBO BAG RED RETROSPOT",
+      "category": "pricing_inconsistency",
+      "severity": "medium",
+      "evidence": "31 unusual-transaction flags",
+      "suggested_action": "Verify SKU-level price rules; look for manual overrides, currency mismatches, or regional pricing errors.",
+      "caveat": "Unusual prices may be legitimate discounts \u2014 verify against the pricing master data."
+    },
+    {
+      "StockCode": "22355",
+      "Description": "CHARLOTTE BAG SUKI DESIGN",
+      "category": "pricing_inconsistency",
+      "severity": "medium",
+      "evidence": "25 unusual-transaction flags",
+      "suggested_action": "Verify SKU-level price rules; look for manual overrides, currency mismatches, or regional pricing errors.",
+      "caveat": "Unusual prices may be legitimate discounts \u2014 verify against the pricing master data."
+    },
+    {
+      "StockCode": "22423",
+      "Description": "REGENCY CAKESTAND 3 TIER",
+      "category": "pricing_inconsistency",
+      "severity": "medium",
+      "evidence": "25 unusual-transaction flags",
+      "suggested_action": "Verify SKU-level price rules; look for manual overrides, currency mismatches, or regional pricing errors.",
+      "caveat": "Unusual prices may be legitimate discounts \u2014 verify against the pricing master data."
+    },
+    {
+      "StockCode": "22086",
+      "Description": "PAPER CHAIN KIT 50'S CHRISTMAS",
+      "category": "pricing_inconsistency",
+      "severity": "medium",
+      "evidence": "25 unusual-transaction flags",
+      "suggested_action": "Verify SKU-level price rules; look for manual overrides, currency mismatches, or regional pricing errors.",
+      "caveat": "Unusual prices may be legitimate discounts \u2014 verify against the pricing master data."
+    },
+    {
+      "StockCode": "22197",
+      "Description": "POPCORN HOLDER",
+      "category": "pricing_inconsistency",
+      "severity": "medium",
+      "evidence": "21 unusual-transaction flags",
+      "suggested_action": "Verify SKU-level price rules; look for manual overrides, currency mismatches, or regional pricing errors.",
+      "caveat": "Unusual prices may be legitimate discounts \u2014 verify against the pricing master data."
+    },
+    {
+      "StockCode": "23344",
+      "Description": "JUMBO BAG 50'S CHRISTMAS",
+      "category": "pricing_inconsistency",
+      "severity": "medium",
+      "evidence": "21 unusual-transaction flags",
+      "suggested_action": "Verify SKU-level price rules; look for manual overrides, currency mismatches, or regional pricing errors.",
+      "caveat": "Unusual prices may be legitimate discounts \u2014 verify against the pricing master data."
+    },
+    {
+      "StockCode": "85099C",
+      "Description": "JUMBO BAG BAROQUE BLACK WHITE",
+      "category": "pricing_inconsistency",
+      "severity": "medium",
+      "evidence": "21 unusual-transaction flags",
+      "suggested_action": "Verify SKU-level price rules; look for manual overrides, currency mismatches, or regional pricing errors.",
+      "caveat": "Unusual prices may be legitimate discounts \u2014 verify against the pricing master data."
+    },
+    {
+      "StockCode": "22386",
+      "Description": "JUMBO BAG PINK POLKADOT",
+      "category": "pricing_inconsistency",
+      "severity": "medium",
+      "evidence": "21 unusual-transaction flags",
+      "suggested_action": "Verify SKU-level price rules; look for manual overrides, currency mismatches, or regional pricing errors.",
+      "caveat": "Unusual prices may be legitimate discounts \u2014 verify against the pricing master data."
+    },
+    {
+      "StockCode": "84347",
+      "Description": "ROTATING SILVER ANGELS T-LIGHT HLDR",
+      "category": "pricing_inconsistency",
+      "severity": "medium",
+      "evidence": "21 unusual-transaction flags",
+      "suggested_action": "Verify SKU-level price rules; look for manual overrides, currency mismatches, or regional pricing errors.",
+      "caveat": "Unusual prices may be legitimate discounts \u2014 verify against the pricing master data."
+    }
+  ]
+}

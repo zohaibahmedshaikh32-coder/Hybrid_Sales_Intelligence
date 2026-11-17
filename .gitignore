@@ -1,5 +1,5 @@
-data/raw/*.xlsx
-data/processed/*.parquet
+#data/raw/*.xlsx
+#data/processed/*.parquet
 data/processed/*.csv
 reports/figures/*.png
 __pycache__/

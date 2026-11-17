@@ -1,0 +1,8 @@
+data/raw/*.xlsx
+data/processed/*.parquet
+data/processed/*.csv
+reports/figures/*.png
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

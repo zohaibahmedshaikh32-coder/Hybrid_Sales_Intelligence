@@ -1,0 +1,5 @@
+model,split,MAE,MSE,RMSE,MAPE,R2,n
+LinearRegression,val,7.644,634.657,25.192,163.37,0.1573,212424
+LinearRegression,test,9.574,862.316,29.365,172.61,0.2369,214428
+RandomForest,val,7.111,590.96,24.31,190.4,0.2153,212424
+RandomForest,test,9.292,822.315,28.676,220.49,0.2723,214428

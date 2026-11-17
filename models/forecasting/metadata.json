@@ -1,0 +1,77 @@
+{
+  "feature_cols": [
+    "lag_qty_1",
+    "lag_qty_7",
+    "lag_qty_14",
+    "lag_qty_30",
+    "lag_rev_1",
+    "lag_rev_7",
+    "lag_rev_14",
+    "lag_rev_30",
+    "roll_mean_7",
+    "roll_mean_14",
+    "roll_mean_30",
+    "roll_mean_90",
+    "roll_std_7",
+    "roll_std_14",
+    "roll_std_30",
+    "roll_std_90",
+    "roll_max_7",
+    "roll_max_14",
+    "roll_max_30",
+    "roll_max_90",
+    "cum_qty",
+    "cum_revenue",
+    "demand_trend",
+    "DayOfWeek",
+    "Month",
+    "Day",
+    "Quarter",
+    "WeekOfYear",
+    "IsWeekend",
+    "IsMonthStart",
+    "IsMonthEnd",
+    "AvgPrice"
+  ],
+  "target": "Quantity",
+  "best_model": "RandomForest",
+  "metrics": {
+    "LinearRegression": {
+      "val": {
+        "MAE": 7.64426349746399,
+        "MSE": 634.656963474625,
+        "RMSE": 25.192398922584267,
+        "MAPE": 163.37471873690822,
+        "R2": 0.15727544913293245,
+        "n": 212424
+      },
+      "test": {
+        "MAE": 9.574168039608335,
+        "MSE": 862.3155677792529,
+        "RMSE": 29.365210160651888,
+        "MAPE": 172.6064668687198,
+        "R2": 0.23688967031818264,
+        "n": 214428
+      }
+    },
+    "RandomForest": {
+      "val": {
+        "MAE": 7.1113463110415065,
+        "MSE": 590.9600777304597,
+        "RMSE": 24.309670457051855,
+        "MAPE": 190.40299787785284,
+        "R2": 0.21529803539974746,
+        "n": 212424
+      },
+      "test": {
+        "MAE": 9.292147308782592,
+        "MSE": 822.3153208039387,
+        "RMSE": 28.67604088440276,
+        "MAPE": 220.49397805242847,
+        "R2": 0.27228808221894085,
+        "n": 214428
+      }
+    }
+  },
+  "schema_version": 1
+}

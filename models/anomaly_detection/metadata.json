@@ -1,0 +1,58 @@
+{
+  "feature_cols": [
+    "Quantity",
+    "Price",
+    "Revenue",
+    "AbsQuantity",
+    "AbsRevenue",
+    "qty_zscore",
+    "price_zscore",
+    "Hour",
+    "DayOfWeek",
+    "IsReturn"
+  ],
+  "schema_version": 1,
+  "chosen_kmeans_k": 3,
+  "anomaly_pct_target": 0.02,
+  "metrics": [
+    {
+      "model": "KMeans",
+      "k": 3.0,
+      "silhouette": 0.6781989856787873,
+      "davies_bouldin": 0.6506276929032735,
+      "anomaly_pct": 2.0000076449238664,
+      "threshold_distance": 4.159924280209202,
+      "n_clusters": NaN,
+      "linkage": NaN,
+      "contamination": NaN,
+      "score_p50": NaN,
+      "score_p99": NaN
+    },
+    {
+      "model": "Hierarchical",
+      "k": NaN,
+      "silhouette": 0.35314106187279387,
+      "davies_bouldin": 1.0100925112112118,
+      "anomaly_pct": 2.0000076449238664,
+      "threshold_distance": 2.931195391227376,
+      "n_clusters": 4.0,
+      "linkage": "ward",
+      "contamination": NaN,
+      "score_p50": NaN,
+      "score_p99": NaN
+    },
+    {
+      "model": "IsolationForest",
+      "k": NaN,
+      "silhouette": NaN,
+      "davies_bouldin": NaN,
+      "anomaly_pct": 2.0000076449238664,
+      "threshold_distance": NaN,
+      "n_clusters": NaN,
+      "linkage": NaN,
+      "contamination": 0.02,
+      "score_p50": 0.38836734858708755,
+      "score_p99": 0.675502955840389
+    }
+  ]
+}

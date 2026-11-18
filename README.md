@@ -1,5 +1,9 @@
 # Retail Intelligence — Hybrid Predictive System
 
+**🔗 Live demo:** https://hybridsalesintelligence-qqzlreznhjksvhygq2uix4.streamlit.app/
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://hybridsalesintelligence-qqzlreznhjksvhygq2uix4.streamlit.app/)
+
 End-to-end ML application for **sales forecasting** and **anomaly
 detection** on the UCI Online Retail II dataset, delivered as a 9-page
 Streamlit dashboard. Built for BS AI - Lab 14 Complex Computing Activity.
@@ -95,6 +99,10 @@ completeness, model persistence, forecast recursion, agreement matrix
 symmetry, business rule classification, streaming state machine,
 mitigation structure.
 
+**Forecasting (test set):**
+- LinearRegression — MAE 9.57, RMSE 29.37, R² 0.237
+- RandomForest — MAE 9.29, RMSE 28.68, R² 0.272 (best)
+
 Troubleshooting
 Symptom	Fix
 FileNotFoundError: online_retail_II.xlsx	Place at data/raw/
@@ -146,3 +154,11 @@ Breiman, L. (2001). Random Forests. Machine Learning 45(1), 5-32.
 Liu et al. (2008). Isolation Forest. ICDM.
 
 Pedregosa et al. (2011). Scikit-learn. JMLR 12, 2825-2830.
+
+---
+
+## Deployment
+
+Live app: **https://hybridsalesintelligence-qqzlreznhjksvhygq2uix4.streamlit.app/**
+
+Source: [GitHub — Hybrid_Sales_Intelligence](https://github.com/zohaibahmedshaikh32-coder/Hybrid_Sales_Intelligence)
